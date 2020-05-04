@@ -1,0 +1,107 @@
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-junit:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: E:\Program Files\tmcbeans\JavaProgrammingCourse-1\mooc-2013-OOProgrammingWithJava-PART2\week8-week8_12.OnlineShop\build\built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: E:\Program Files\tmcbeans\JavaProgrammingCourse-1\mooc-2013-OOProgrammingWithJava-PART2\week8-week8_12.OnlineShop\build\built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+    [javac] Compiling 1 source file to E:\Program Files\tmcbeans\JavaProgrammingCourse-1\mooc-2013-OOProgrammingWithJava-PART2\week8-week8_12.OnlineShop\build\classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+    [javac] Compiling 3 source files to E:\Program Files\tmcbeans\JavaProgrammingCourse-1\mooc-2013-OOProgrammingWithJava-PART2\week8-week8_12.OnlineShop\build\test\classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] E:\Program Files\tmcbeans\JavaProgrammingCourse-1\mooc-2013-OOProgrammingWithJava-PART2\week8-week8_12.OnlineShop\test\A_StorehouseTest.java:389: error: cannot find symbol
+    [javac]         assertEquals(koodi + " returned set +" + t + " size of the set ", 3, t.size());
+    [javac]                                                                               ^
+    [javac]   symbol:   method size()
+    [javac]   location: variable t of type Set<String>
+    [javac] E:\Program Files\tmcbeans\JavaProgrammingCourse-1\mooc-2013-OOProgrammingWithJava-PART2\week8-week8_12.OnlineShop\test\A_StorehouseTest.java:390: error: cannot find symbol
+    [javac]         assertEquals(koodi + " returned set +" + t + " \"milk\" is included ", true, t.contains("milk"));
+    [javac]                                                                                       ^
+    [javac]   symbol:   method contains(String)
+    [javac]   location: variable t of type Set<String>
+    [javac] E:\Program Files\tmcbeans\JavaProgrammingCourse-1\mooc-2013-OOProgrammingWithJava-PART2\week8-week8_12.OnlineShop\test\A_StorehouseTest.java:391: error: cannot find symbol
+    [javac]         assertEquals(koodi + " returned set +" + t + " \"coffee\" is included ", true, t.contains("coffee"));
+    [javac]                                                                                         ^
+    [javac]   symbol:   method contains(String)
+    [javac]   location: variable t of type Set<String>
+    [javac] E:\Program Files\tmcbeans\JavaProgrammingCourse-1\mooc-2013-OOProgrammingWithJava-PART2\week8-week8_12.OnlineShop\test\A_StorehouseTest.java:392: error: cannot find symbol
+    [javac]         assertEquals(koodi + " returned set +" + t + " \"sugar\" is included ", true, t.contains("sugar"));
+    [javac]                                                                                        ^
+    [javac]   symbol:   method contains(String)
+    [javac]   location: variable t of type Set<String>
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 4 errors
+    [javac] 1 warning
